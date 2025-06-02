@@ -1,0 +1,26 @@
+[
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\main.cpp.obj -c \"F:\\os lab\\main.cpp\"",
+  "file": "F:/os lab/main.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\process\\Process.cpp.obj -c \"F:\\os lab\\src\\process\\Process.cpp\"",
+  "file": "F:/os lab/src/process/Process.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/process/Process.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\scheduler\\Scheduler.cpp.obj -c \"F:\\os lab\\src\\scheduler\\Scheduler.cpp\"",
+  "file": "F:/os lab/src/scheduler/Scheduler.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/scheduler/Scheduler.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\scheduler\\FCFSScheduler.cpp.obj -c \"F:\\os lab\\src\\scheduler\\FCFSScheduler.cpp\"",
+  "file": "F:/os lab/src/scheduler/FCFSScheduler.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj"
+}
+]

@@ -1,0 +1,10 @@
+F:/os lab/build/CMakeFiles/ZTS_OS_Design.dir
+F:/os lab/build/CMakeFiles/package.dir
+F:/os lab/build/CMakeFiles/package_source.dir
+F:/os lab/build/CMakeFiles/test.dir
+F:/os lab/build/CMakeFiles/edit_cache.dir
+F:/os lab/build/CMakeFiles/rebuild_cache.dir
+F:/os lab/build/CMakeFiles/list_install_components.dir
+F:/os lab/build/CMakeFiles/install.dir
+F:/os lab/build/CMakeFiles/install/local.dir
+F:/os lab/build/CMakeFiles/install/strip.dir

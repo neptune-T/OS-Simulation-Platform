@@ -1,0 +1,57 @@
+{
+    "system": {
+        "name": "ZTS Operating System Simulation",
+        "version": "1.0.0-Beta",
+        "platform": "Windows x64",
+        "architecture": "x86_64"
+    },
+    "scheduler": {
+        "default_algorithm": "FCFS",
+        "time_quantum": 10,
+        "max_processes": 100,
+        "supported_algorithms": [
+            "FCFS",
+            "RoundRobin", 
+            "SJF",
+            "Priority",
+            "MultiLevel"
+        ]
+    },
+    "memory": {
+        "total_size": 1024,
+        "page_size": 4,
+        "segment_size": 64,
+        "allocation_strategy": "FirstFit",
+        "supported_strategies": [
+            "FirstFit",
+            "BestFit",
+            "WorstFit"
+        ]
+    },
+    "filesystem": {
+        "disk_size": 2048,
+        "block_size": 512,
+        "max_files": 1000,
+        "max_directories": 100,
+        "allocation_method": "Indexed"
+    },
+    "ui": {
+        "enable_colors": true,
+        "animation_speed": 100,
+        "console_width": 120,
+        "console_height": 30,
+        "theme": "dark"
+    },
+    "logging": {
+        "enable_logging": true,
+        "log_level": "INFO",
+        "log_file": "resources/logs/system.log",
+        "max_log_size": 10485760
+    },
+    "simulation": {
+        "enable_real_time": false,
+        "simulation_speed": 1.0,
+        "max_simulation_time": 3600,
+        "auto_save": true
+    }
+} 
