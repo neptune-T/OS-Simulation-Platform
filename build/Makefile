@@ -227,6 +227,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/memory/ContiguousAllocator.obj: src/memory/ContiguousAllocator.cpp.obj
+.PHONY : src/memory/ContiguousAllocator.obj
+
+# target to build an object file
+src/memory/ContiguousAllocator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/memory/ContiguousAllocator.cpp.obj
+.PHONY : src/memory/ContiguousAllocator.cpp.obj
+
+src/memory/ContiguousAllocator.i: src/memory/ContiguousAllocator.cpp.i
+.PHONY : src/memory/ContiguousAllocator.i
+
+# target to preprocess a source file
+src/memory/ContiguousAllocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/memory/ContiguousAllocator.cpp.i
+.PHONY : src/memory/ContiguousAllocator.cpp.i
+
+src/memory/ContiguousAllocator.s: src/memory/ContiguousAllocator.cpp.s
+.PHONY : src/memory/ContiguousAllocator.s
+
+# target to generate assembly for a file
+src/memory/ContiguousAllocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/memory/ContiguousAllocator.cpp.s
+.PHONY : src/memory/ContiguousAllocator.cpp.s
+
+src/memory/MemoryManager.obj: src/memory/MemoryManager.cpp.obj
+.PHONY : src/memory/MemoryManager.obj
+
+# target to build an object file
+src/memory/MemoryManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/memory/MemoryManager.cpp.obj
+.PHONY : src/memory/MemoryManager.cpp.obj
+
+src/memory/MemoryManager.i: src/memory/MemoryManager.cpp.i
+.PHONY : src/memory/MemoryManager.i
+
+# target to preprocess a source file
+src/memory/MemoryManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/memory/MemoryManager.cpp.i
+.PHONY : src/memory/MemoryManager.cpp.i
+
+src/memory/MemoryManager.s: src/memory/MemoryManager.cpp.s
+.PHONY : src/memory/MemoryManager.s
+
+# target to generate assembly for a file
+src/memory/MemoryManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/memory/MemoryManager.cpp.s
+.PHONY : src/memory/MemoryManager.cpp.s
+
 src/process/Process.obj: src/process/Process.cpp.obj
 .PHONY : src/process/Process.obj
 
@@ -395,6 +443,30 @@ src/ui/boot_animation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.s
 .PHONY : src/ui/boot_animation.cpp.s
 
+src/ui/memory_demo.obj: src/ui/memory_demo.cpp.obj
+.PHONY : src/ui/memory_demo.obj
+
+# target to build an object file
+src/ui/memory_demo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/memory_demo.cpp.obj
+.PHONY : src/ui/memory_demo.cpp.obj
+
+src/ui/memory_demo.i: src/ui/memory_demo.cpp.i
+.PHONY : src/ui/memory_demo.i
+
+# target to preprocess a source file
+src/ui/memory_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/memory_demo.cpp.i
+.PHONY : src/ui/memory_demo.cpp.i
+
+src/ui/memory_demo.s: src/ui/memory_demo.cpp.s
+.PHONY : src/ui/memory_demo.s
+
+# target to generate assembly for a file
+src/ui/memory_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/memory_demo.cpp.s
+.PHONY : src/ui/memory_demo.cpp.s
+
 src/ui/scheduler_demo.obj: src/ui/scheduler_demo.cpp.obj
 .PHONY : src/ui/scheduler_demo.obj
 
@@ -438,6 +510,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/memory/ContiguousAllocator.obj
+	@echo ... src/memory/ContiguousAllocator.i
+	@echo ... src/memory/ContiguousAllocator.s
+	@echo ... src/memory/MemoryManager.obj
+	@echo ... src/memory/MemoryManager.i
+	@echo ... src/memory/MemoryManager.s
 	@echo ... src/process/Process.obj
 	@echo ... src/process/Process.i
 	@echo ... src/process/Process.s
@@ -459,6 +537,9 @@ help:
 	@echo ... src/ui/boot_animation.obj
 	@echo ... src/ui/boot_animation.i
 	@echo ... src/ui/boot_animation.s
+	@echo ... src/ui/memory_demo.obj
+	@echo ... src/ui/memory_demo.i
+	@echo ... src/ui/memory_demo.s
 	@echo ... src/ui/scheduler_demo.obj
 	@echo ... src/ui/scheduler_demo.i
 	@echo ... src/ui/scheduler_demo.s

@@ -180,4 +180,21 @@ CMakeFiles/ZTS_OS_Design.dir/main.cpp.obj: F:\os\ lab\main.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr_atomic.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_base.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\backward\auto_ptr.h \
- F:\os\ lab\include/utils/boot_animation.h
+ F:\os\ lab\include/utils/boot_animation.h \
+ F:\os\ lab\include/utils/memory_demo.h \
+ f:\os\ lab\include\memory\memorymanager.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\unordered_map \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable_policy.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
+ f:\os\ lab\include\memory\contiguousallocator.h \
+ f:\os\ lab\include\memory\MemoryManager.h \
+ f:\os\ lab\include\memory\pagingmanager.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\queue \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\deque \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\list \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_list.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\list.tcc

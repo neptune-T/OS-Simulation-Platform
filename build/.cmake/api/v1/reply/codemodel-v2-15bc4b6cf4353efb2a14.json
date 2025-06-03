@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-3d0d1882da092515beca.json",
+					"jsonFile" : "directory-.-Debug-96d6a7d7905fcd65a88b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZTS_OS_Design::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZTS_OS_Design-Debug-f365505a647c4673348b.json",
+					"jsonFile" : "target-ZTS_OS_Design-Debug-400e935008383ff709be.json",
 					"name" : "ZTS_OS_Design",
 					"projectIndex" : 0
 				}

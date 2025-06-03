@@ -43,6 +43,18 @@
 },
 {
   "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\memory\\MemoryManager.cpp.obj -c \"F:\\os lab\\src\\memory\\MemoryManager.cpp\"",
+  "file": "F:/os lab/src/memory/MemoryManager.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/memory/MemoryManager.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\memory\\ContiguousAllocator.cpp.obj -c \"F:\\os lab\\src\\memory\\ContiguousAllocator.cpp\"",
+  "file": "F:/os lab/src/memory/ContiguousAllocator.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/memory/ContiguousAllocator.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\ui\\boot_animation.cpp.obj -c \"F:\\os lab\\src\\ui\\boot_animation.cpp\"",
   "file": "F:/os lab/src/ui/boot_animation.cpp",
   "output": "CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj"
@@ -52,5 +64,11 @@
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\ui\\scheduler_demo.cpp.obj -c \"F:\\os lab\\src\\ui\\scheduler_demo.cpp\"",
   "file": "F:/os lab/src/ui/scheduler_demo.cpp",
   "output": "CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\ui\\memory_demo.cpp.obj -c \"F:\\os lab\\src\\ui\\memory_demo.cpp\"",
+  "file": "F:/os lab/src/ui/memory_demo.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/ui/memory_demo.cpp.obj"
 }
 ]
