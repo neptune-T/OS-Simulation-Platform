@@ -131,12 +131,92 @@ CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\os lab\src\scheduler\FCFSScheduler.cpp" -o CMakeFiles\ZTS_OS_Design.dir\src\scheduler\FCFSScheduler.cpp.s
 
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/flags.make
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj: F:/os\ lab/src/scheduler/RoundRobinScheduler.cpp
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\os lab\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj -MF CMakeFiles\ZTS_OS_Design.dir\src\scheduler\RoundRobinScheduler.cpp.obj.d -o CMakeFiles\ZTS_OS_Design.dir\src\scheduler\RoundRobinScheduler.cpp.obj -c "F:\os lab\src\scheduler\RoundRobinScheduler.cpp"
+
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\os lab\src\scheduler\RoundRobinScheduler.cpp" > CMakeFiles\ZTS_OS_Design.dir\src\scheduler\RoundRobinScheduler.cpp.i
+
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\os lab\src\scheduler\RoundRobinScheduler.cpp" -o CMakeFiles\ZTS_OS_Design.dir\src\scheduler\RoundRobinScheduler.cpp.s
+
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/flags.make
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj: F:/os\ lab/src/scheduler/SJFScheduler.cpp
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\os lab\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj -MF CMakeFiles\ZTS_OS_Design.dir\src\scheduler\SJFScheduler.cpp.obj.d -o CMakeFiles\ZTS_OS_Design.dir\src\scheduler\SJFScheduler.cpp.obj -c "F:\os lab\src\scheduler\SJFScheduler.cpp"
+
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\os lab\src\scheduler\SJFScheduler.cpp" > CMakeFiles\ZTS_OS_Design.dir\src\scheduler\SJFScheduler.cpp.i
+
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\os lab\src\scheduler\SJFScheduler.cpp" -o CMakeFiles\ZTS_OS_Design.dir\src\scheduler\SJFScheduler.cpp.s
+
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/flags.make
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj: F:/os\ lab/src/scheduler/PriorityScheduler.cpp
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\os lab\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj -MF CMakeFiles\ZTS_OS_Design.dir\src\scheduler\PriorityScheduler.cpp.obj.d -o CMakeFiles\ZTS_OS_Design.dir\src\scheduler\PriorityScheduler.cpp.obj -c "F:\os lab\src\scheduler\PriorityScheduler.cpp"
+
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\os lab\src\scheduler\PriorityScheduler.cpp" > CMakeFiles\ZTS_OS_Design.dir\src\scheduler\PriorityScheduler.cpp.i
+
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\os lab\src\scheduler\PriorityScheduler.cpp" -o CMakeFiles\ZTS_OS_Design.dir\src\scheduler\PriorityScheduler.cpp.s
+
+CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/flags.make
+CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp
+CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj: F:/os\ lab/src/ui/boot_animation.cpp
+CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\os lab\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj -MF CMakeFiles\ZTS_OS_Design.dir\src\ui\boot_animation.cpp.obj.d -o CMakeFiles\ZTS_OS_Design.dir\src\ui\boot_animation.cpp.obj -c "F:\os lab\src\ui\boot_animation.cpp"
+
+CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\os lab\src\ui\boot_animation.cpp" > CMakeFiles\ZTS_OS_Design.dir\src\ui\boot_animation.cpp.i
+
+CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\os lab\src\ui\boot_animation.cpp" -o CMakeFiles\ZTS_OS_Design.dir\src\ui\boot_animation.cpp.s
+
+CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/flags.make
+CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp
+CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj: F:/os\ lab/src/ui/scheduler_demo.cpp
+CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj: CMakeFiles/ZTS_OS_Design.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\os lab\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj -MF CMakeFiles\ZTS_OS_Design.dir\src\ui\scheduler_demo.cpp.obj.d -o CMakeFiles\ZTS_OS_Design.dir\src\ui\scheduler_demo.cpp.obj -c "F:\os lab\src\ui\scheduler_demo.cpp"
+
+CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\os lab\src\ui\scheduler_demo.cpp" > CMakeFiles\ZTS_OS_Design.dir\src\ui\scheduler_demo.cpp.i
+
+CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\os lab\src\ui\scheduler_demo.cpp" -o CMakeFiles\ZTS_OS_Design.dir\src\ui\scheduler_demo.cpp.s
+
 # Object files for target ZTS_OS_Design
 ZTS_OS_Design_OBJECTS = \
 "CMakeFiles/ZTS_OS_Design.dir/main.cpp.obj" \
 "CMakeFiles/ZTS_OS_Design.dir/src/process/Process.cpp.obj" \
 "CMakeFiles/ZTS_OS_Design.dir/src/scheduler/Scheduler.cpp.obj" \
-"CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj"
+"CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj" \
+"CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj" \
+"CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj" \
+"CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj" \
+"CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj" \
+"CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj"
 
 # External object files for target ZTS_OS_Design
 ZTS_OS_Design_EXTERNAL_OBJECTS =
@@ -145,11 +225,16 @@ bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/main.cpp.obj
 bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/src/process/Process.cpp.obj
 bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/src/scheduler/Scheduler.cpp.obj
 bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj
+bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj
+bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj
+bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj
+bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj
+bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj
 bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/build.make
 bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/linkLibs.rsp
 bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/objects1.rsp
 bin/ZTS_OS_Design.exe: CMakeFiles/ZTS_OS_Design.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="F:\os lab\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin\ZTS_OS_Design.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="F:\os lab\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin\ZTS_OS_Design.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ZTS_OS_Design.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying resources to output directory"
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "F:/os lab/resources" "F:/os lab/build/bin/resources"

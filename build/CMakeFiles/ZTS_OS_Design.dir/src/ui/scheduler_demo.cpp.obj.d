@@ -1,7 +1,6 @@
-CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
- F:\os\ lab\src\scheduler\FCFSScheduler.cpp \
- f:\os\ lab\include\algorithms\fcfsscheduler.h \
- f:\os\ lab\include\algorithms\Scheduler.h \
+CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj: \
+ F:\os\ lab\src\ui\scheduler_demo.cpp \
+ f:\os\ lab\include\utils\scheduler_demo.h \
  f:\os\ lab\include\core\process.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
@@ -88,6 +87,8 @@ CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
+ f:\os\ lab\include\algorithms\scheduler.h \
+ f:\os\ lab\include\core\process.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\memory \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tempbuf.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_raw_storage_iter.h \
@@ -108,11 +109,7 @@ CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr_atomic.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_base.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\backward\auto_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\algorithm \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algo.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\algorithmfwd.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_heap.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
+ f:\os\ lab\include\utils\boot_animation.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
@@ -149,4 +146,48 @@ CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\algorithm \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algo.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\algorithmfwd.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_heap.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
+ c:\mingw\include\windows.h c:\mingw\include\windef.h \
+ c:\mingw\include\winnt.h c:\mingw\include\winerror.h \
+ c:\mingw\include\string.h c:\mingw\include\basetsd.h \
+ c:\mingw\include\pshpack4.h c:\mingw\include\poppack.h \
+ c:\mingw\include\wincon.h c:\mingw\include\winbase.h \
+ c:\mingw\include\wingdi.h c:\mingw\include\winuser.h \
+ c:\mingw\include\dbt.h c:\mingw\include\winnls.h \
+ c:\mingw\include\winver.h c:\mingw\include\winnetwk.h \
+ c:\mingw\include\winreg.h c:\mingw\include\winsvc.h \
+ c:\mingw\include\cderr.h c:\mingw\include\dde.h c:\mingw\include\ddeml.h \
+ c:\mingw\include\dlgs.h c:\mingw\include\imm.h \
+ c:\mingw\include\lzexpand.h c:\mingw\include\mmsystem.h \
+ c:\mingw\include\nb30.h c:\mingw\include\rpc.h c:\mingw\include\rpcdce.h \
+ c:\mingw\include\basetyps.h c:\mingw\include\rpcdcep.h \
+ c:\mingw\include\rpcnsi.h c:\mingw\include\rpcnterr.h \
+ c:\mingw\include\shellapi.h c:\mingw\include\pshpack2.h \
+ c:\mingw\include\winperf.h c:\mingw\include\commdlg.h \
+ c:\mingw\include\unknwn.h c:\mingw\include\objfwd.h \
+ c:\mingw\include\wtypes.h c:\mingw\include\rpcndr.h \
+ c:\mingw\include\rpcnsip.h c:\mingw\include\prsht.h \
+ c:\mingw\include\winspool.h c:\mingw\include\_winsock.h \
+ c:\mingw\include\winsock2.h c:\mingw\include\winsock.h \
+ c:\mingw\include\sys\bsdtypes.h c:\mingw\include\sys\time.h \
+ c:\mingw\include\nspapi.h c:\mingw\include\wtypes.h \
+ c:\mingw\include\ole2.h c:\mingw\include\objbase.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdlib.h \
+ c:\mingw\include\objidl.h c:\mingw\include\cguid.h \
+ c:\mingw\include\olectlid.h c:\mingw\include\oleauto.h \
+ c:\mingw\include\oaidl.h c:\mingw\include\oleidl.h \
+ f:\os\ lab\include\algorithms\fcfsscheduler.h \
+ f:\os\ lab\include\algorithms\Scheduler.h \
+ f:\os\ lab\include\algorithms\roundrobinscheduler.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\queue \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\deque \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
+ f:\os\ lab\include\algorithms\sjfscheduler.h \
+ f:\os\ lab\include\algorithms\priorityscheduler.h

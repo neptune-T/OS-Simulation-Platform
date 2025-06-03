@@ -275,6 +275,78 @@ src/scheduler/FCFSScheduler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.s
 .PHONY : src/scheduler/FCFSScheduler.cpp.s
 
+src/scheduler/PriorityScheduler.obj: src/scheduler/PriorityScheduler.cpp.obj
+.PHONY : src/scheduler/PriorityScheduler.obj
+
+# target to build an object file
+src/scheduler/PriorityScheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj
+.PHONY : src/scheduler/PriorityScheduler.cpp.obj
+
+src/scheduler/PriorityScheduler.i: src/scheduler/PriorityScheduler.cpp.i
+.PHONY : src/scheduler/PriorityScheduler.i
+
+# target to preprocess a source file
+src/scheduler/PriorityScheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.i
+.PHONY : src/scheduler/PriorityScheduler.cpp.i
+
+src/scheduler/PriorityScheduler.s: src/scheduler/PriorityScheduler.cpp.s
+.PHONY : src/scheduler/PriorityScheduler.s
+
+# target to generate assembly for a file
+src/scheduler/PriorityScheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.s
+.PHONY : src/scheduler/PriorityScheduler.cpp.s
+
+src/scheduler/RoundRobinScheduler.obj: src/scheduler/RoundRobinScheduler.cpp.obj
+.PHONY : src/scheduler/RoundRobinScheduler.obj
+
+# target to build an object file
+src/scheduler/RoundRobinScheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj
+.PHONY : src/scheduler/RoundRobinScheduler.cpp.obj
+
+src/scheduler/RoundRobinScheduler.i: src/scheduler/RoundRobinScheduler.cpp.i
+.PHONY : src/scheduler/RoundRobinScheduler.i
+
+# target to preprocess a source file
+src/scheduler/RoundRobinScheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.i
+.PHONY : src/scheduler/RoundRobinScheduler.cpp.i
+
+src/scheduler/RoundRobinScheduler.s: src/scheduler/RoundRobinScheduler.cpp.s
+.PHONY : src/scheduler/RoundRobinScheduler.s
+
+# target to generate assembly for a file
+src/scheduler/RoundRobinScheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.s
+.PHONY : src/scheduler/RoundRobinScheduler.cpp.s
+
+src/scheduler/SJFScheduler.obj: src/scheduler/SJFScheduler.cpp.obj
+.PHONY : src/scheduler/SJFScheduler.obj
+
+# target to build an object file
+src/scheduler/SJFScheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj
+.PHONY : src/scheduler/SJFScheduler.cpp.obj
+
+src/scheduler/SJFScheduler.i: src/scheduler/SJFScheduler.cpp.i
+.PHONY : src/scheduler/SJFScheduler.i
+
+# target to preprocess a source file
+src/scheduler/SJFScheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.i
+.PHONY : src/scheduler/SJFScheduler.cpp.i
+
+src/scheduler/SJFScheduler.s: src/scheduler/SJFScheduler.cpp.s
+.PHONY : src/scheduler/SJFScheduler.s
+
+# target to generate assembly for a file
+src/scheduler/SJFScheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.s
+.PHONY : src/scheduler/SJFScheduler.cpp.s
+
 src/scheduler/Scheduler.obj: src/scheduler/Scheduler.cpp.obj
 .PHONY : src/scheduler/Scheduler.obj
 
@@ -298,6 +370,54 @@ src/scheduler/Scheduler.s: src/scheduler/Scheduler.cpp.s
 src/scheduler/Scheduler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/scheduler/Scheduler.cpp.s
 .PHONY : src/scheduler/Scheduler.cpp.s
+
+src/ui/boot_animation.obj: src/ui/boot_animation.cpp.obj
+.PHONY : src/ui/boot_animation.obj
+
+# target to build an object file
+src/ui/boot_animation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj
+.PHONY : src/ui/boot_animation.cpp.obj
+
+src/ui/boot_animation.i: src/ui/boot_animation.cpp.i
+.PHONY : src/ui/boot_animation.i
+
+# target to preprocess a source file
+src/ui/boot_animation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.i
+.PHONY : src/ui/boot_animation.cpp.i
+
+src/ui/boot_animation.s: src/ui/boot_animation.cpp.s
+.PHONY : src/ui/boot_animation.s
+
+# target to generate assembly for a file
+src/ui/boot_animation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.s
+.PHONY : src/ui/boot_animation.cpp.s
+
+src/ui/scheduler_demo.obj: src/ui/scheduler_demo.cpp.obj
+.PHONY : src/ui/scheduler_demo.obj
+
+# target to build an object file
+src/ui/scheduler_demo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj
+.PHONY : src/ui/scheduler_demo.cpp.obj
+
+src/ui/scheduler_demo.i: src/ui/scheduler_demo.cpp.i
+.PHONY : src/ui/scheduler_demo.i
+
+# target to preprocess a source file
+src/ui/scheduler_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.i
+.PHONY : src/ui/scheduler_demo.cpp.i
+
+src/ui/scheduler_demo.s: src/ui/scheduler_demo.cpp.s
+.PHONY : src/ui/scheduler_demo.s
+
+# target to generate assembly for a file
+src/ui/scheduler_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZTS_OS_Design.dir\build.make CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.s
+.PHONY : src/ui/scheduler_demo.cpp.s
 
 # Help Target
 help:
@@ -324,9 +444,24 @@ help:
 	@echo ... src/scheduler/FCFSScheduler.obj
 	@echo ... src/scheduler/FCFSScheduler.i
 	@echo ... src/scheduler/FCFSScheduler.s
+	@echo ... src/scheduler/PriorityScheduler.obj
+	@echo ... src/scheduler/PriorityScheduler.i
+	@echo ... src/scheduler/PriorityScheduler.s
+	@echo ... src/scheduler/RoundRobinScheduler.obj
+	@echo ... src/scheduler/RoundRobinScheduler.i
+	@echo ... src/scheduler/RoundRobinScheduler.s
+	@echo ... src/scheduler/SJFScheduler.obj
+	@echo ... src/scheduler/SJFScheduler.i
+	@echo ... src/scheduler/SJFScheduler.s
 	@echo ... src/scheduler/Scheduler.obj
 	@echo ... src/scheduler/Scheduler.i
 	@echo ... src/scheduler/Scheduler.s
+	@echo ... src/ui/boot_animation.obj
+	@echo ... src/ui/boot_animation.i
+	@echo ... src/ui/boot_animation.s
+	@echo ... src/ui/scheduler_demo.obj
+	@echo ... src/ui/scheduler_demo.i
+	@echo ... src/ui/scheduler_demo.s
 .PHONY : help
 
 

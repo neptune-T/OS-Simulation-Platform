@@ -22,5 +22,35 @@
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\scheduler\\FCFSScheduler.cpp.obj -c \"F:\\os lab\\src\\scheduler\\FCFSScheduler.cpp\"",
   "file": "F:/os lab/src/scheduler/FCFSScheduler.cpp",
   "output": "CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\scheduler\\RoundRobinScheduler.cpp.obj -c \"F:\\os lab\\src\\scheduler\\RoundRobinScheduler.cpp\"",
+  "file": "F:/os lab/src/scheduler/RoundRobinScheduler.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\scheduler\\SJFScheduler.cpp.obj -c \"F:\\os lab\\src\\scheduler\\SJFScheduler.cpp\"",
+  "file": "F:/os lab/src/scheduler/SJFScheduler.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/scheduler/SJFScheduler.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\scheduler\\PriorityScheduler.cpp.obj -c \"F:\\os lab\\src\\scheduler\\PriorityScheduler.cpp\"",
+  "file": "F:/os lab/src/scheduler/PriorityScheduler.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\ui\\boot_animation.cpp.obj -c \"F:\\os lab\\src\\ui\\boot_animation.cpp\"",
+  "file": "F:/os lab/src/ui/boot_animation.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/ui/boot_animation.cpp.obj"
+},
+{
+  "directory": "F:/os lab/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ZTS_OS_Design.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -pedantic -o CMakeFiles\\ZTS_OS_Design.dir\\src\\ui\\scheduler_demo.cpp.obj -c \"F:\\os lab\\src\\ui\\scheduler_demo.cpp\"",
+  "file": "F:/os lab/src/ui/scheduler_demo.cpp",
+  "output": "CMakeFiles/ZTS_OS_Design.dir/src/ui/scheduler_demo.cpp.obj"
 }
 ]

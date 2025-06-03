@@ -1,6 +1,6 @@
-CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
- F:\os\ lab\src\scheduler\FCFSScheduler.cpp \
- f:\os\ lab\include\algorithms\fcfsscheduler.h \
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/RoundRobinScheduler.cpp.obj: \
+ F:\os\ lab\src\scheduler\RoundRobinScheduler.cpp \
+ f:\os\ lab\include\algorithms\roundrobinscheduler.h \
  f:\os\ lab\include\algorithms\Scheduler.h \
  f:\os\ lab\include\core\process.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
@@ -108,10 +108,15 @@ CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr_atomic.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_base.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\backward\auto_ptr.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\queue \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\deque \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_heap.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\algorithm \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algo.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\algorithmfwd.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_heap.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
@@ -149,4 +154,6 @@ CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\climits \
+ c:\mingw\include\limits.h

@@ -1,6 +1,6 @@
-CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
- F:\os\ lab\src\scheduler\FCFSScheduler.cpp \
- f:\os\ lab\include\algorithms\fcfsscheduler.h \
+CMakeFiles/ZTS_OS_Design.dir/src/scheduler/PriorityScheduler.cpp.obj: \
+ F:\os\ lab\src\scheduler\PriorityScheduler.cpp \
+ f:\os\ lab\include\algorithms\priorityscheduler.h \
  f:\os\ lab\include\algorithms\Scheduler.h \
  f:\os\ lab\include\core\process.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
@@ -149,4 +149,6 @@ CMakeFiles/ZTS_OS_Design.dir/src/scheduler/FCFSScheduler.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\climits \
+ c:\mingw\include\limits.h
