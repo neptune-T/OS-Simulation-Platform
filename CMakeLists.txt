@@ -44,15 +44,24 @@ set(CORE_SOURCES
 set(SCHEDULER_SOURCES
     src/scheduler/Scheduler.cpp
     src/scheduler/FCFSScheduler.cpp
+    src/scheduler/RoundRobinScheduler.cpp
+    src/scheduler/SJFScheduler.cpp
+    src/scheduler/PriorityScheduler.cpp
+)
+
+set(MEMORY_SOURCES
+    src/memory/MemoryManager.cpp
+    src/memory/ContiguousAllocator.cpp
+    # src/memory/PagingManager.cpp
+)
+
+set(UI_SOURCES
+    src/ui/boot_animation.cpp
+    src/ui/scheduler_demo.cpp
+    src/ui/memory_demo.cpp
 )
 
 # 暂时注释掉未实现的模块
-# set(MEMORY_SOURCES
-#     src/memory/memory_manager.cpp
-#     src/memory/paging_manager.cpp
-#     src/memory/segmentation_manager.cpp
-# )
-
 # set(FILESYSTEM_SOURCES
 #     src/filesystem/file_system.cpp
 #     src/filesystem/directory.cpp
@@ -69,7 +78,8 @@ set(SCHEDULER_SOURCES
 set(ALL_SOURCES
     ${CORE_SOURCES}
     ${SCHEDULER_SOURCES}
-    # ${MEMORY_SOURCES}
+    ${MEMORY_SOURCES}
+    ${UI_SOURCES}
     # ${FILESYSTEM_SOURCES}
     # ${SYNC_SOURCES}
 )

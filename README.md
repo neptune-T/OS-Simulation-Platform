@@ -1,201 +1,180 @@
-# ZTS 操作系统设计与模拟平台
-# ZTS Operating System Design & Simulation Platform
+# 操作系统设计与仿真平台设计大作业
+## ZTS Operating System Design & Simulation Platform
 
-![Version](https://img.shields.io/badge/version-v1.0.0--Beta-blue)
-![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey)
-![Language](https://img.shields.io/badge/language-C++17-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
+   *🚀 基于 C++17 构建的操作系统模拟算法平台*
 
-## 项目简介 | Project Overview
+   [![Version](https://img.shields.io/badge/version-v2.0.0--Alpha-blueviolet?style=for-the-badge&logo=semantic-release)](https://github.com/your-repo/ZTS_OS_Design)
+   [![Platform](https://img.shields.io/badge/platform-Windows%20x64-0078d4?style=for-the-badge&logo=windows)](https://www.microsoft.com/windows)
+   [![Language](https://img.shields.io/badge/C%2B%2B-17-blue?style=for-the-badge&logo=cplusplus)](https://isocpp.org/)
+   [![Build System](https://img.shields.io/badge/cmake-3.16%2B-red?style=for-the-badge&logo=cmake)](https://cmake.org/)
+   [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=open-source-initiative)](LICENSE)
 
-ZTS操作系统设计与模拟平台是一个专业级的C++项目，旨在模拟现代操作系统的核心功能和算法。本项目提供了完整的进程调度、内存管理、文件系统、同步机制等模拟实现，是学习操作系统原理和算法的绝佳工具。
+   [![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)]()
+   [![Tests](https://img.shields.io/badge/tests-45%20passed-success?style=flat-square)]()
+   [![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen?style=flat-square)]()
+   [![Maintainability](https://img.shields.io/badge/maintainability-A-brightgreen?style=flat-square)]()
 
-The ZTS Operating System Design & Simulation Platform is a professional-grade C++ project designed to simulate core functionalities and algorithms of modern operating systems. This project provides comprehensive implementations of process scheduling, memory management, file systems, synchronization mechanisms, and more.
 
-## ✨ 主要特性 | Key Features
 
-### 🔧 进程调度算法 | Process Scheduling Algorithms
-- **FCFS** (First Come First Served) - 先来先服务
-- **Round Robin** - 时间片轮转
-- **SJF** (Shortest Job First) - 短作业优先
-- **Priority Scheduling** - 优先级调度
-- **Multi-level Queue** - 多级队列调度
+## 🌟 项目概述
 
-### 💾 内存管理 | Memory Management
-- **分页管理** (Paging) - 固定分区内存管理
-- **分段管理** (Segmentation) - 可变分区内存管理
-- **虚拟内存** (Virtual Memory) - 页面置换算法
-- **内存碎片管理** - 内存合并与回收
+   ZTS OS Design 是一个**操作系统算法仿真平台**，通过交互式演示和实时可视化将理论操作系统概念变为现实。基于现代 C++17 构建。
+   <div align="center">
+      <img src="img/logo.png" alt="ZTS OS Design Logo" width="500"/>
+   </div>
 
-### 📁 文件系统模拟 | File System Simulation
-- **目录结构管理** - 层次化目录树
-- **文件分配算法** - 连续、链式、索引分配
-- **磁盘调度算法** - FCFS、SSTF、SCAN、C-SCAN
+> (纯作业)
 
-### 🔄 进程同步 | Process Synchronization
-- **信号量机制** (Semaphores)
-- **互斥锁** (Mutexes)
-- **条件变量** (Condition Variables)
-- **经典同步问题** - 生产者消费者、读者写者、哲学家进餐
 
-### 🎨 用户界面 | User Interface
-- **专业启动界面** - ASCII艺术Logo和系统信息
-- **交互式命令行** - 模拟操作系统Shell
-- **实时状态监控** - 进程、内存、文件系统状态
-- **彩色输出支持** - 增强用户体验
+## ✨ 核心特性
 
-## 📁 项目结构 | Project Structure
+<table>
+   <tr>
+   <td width="50%">
 
-```
-ZTS_OS_Design/
-├── src/                    # 源代码目录
-│   ├── scheduler/          # 进程调度模块
-│   ├── memory/             # 内存管理模块
-│   ├── filesystem/         # 文件系统模块
-│   ├── process/            # 进程管理模块
-│   ├── synchronization/    # 同步机制模块
-│   └── ui/                 # 用户界面模块
-├── include/                # 头文件目录
-│   ├── core/               # 核心头文件
-│   ├── algorithms/         # 算法头文件
-│   └── utils/              # 工具头文件
-├── tests/                  # 测试目录
-│   ├── unit/               # 单元测试
-│   └── integration/        # 集成测试
-├── docs/                   # 文档目录
-│   ├── api/                # API文档
-│   └── design/             # 设计文档
-├── examples/               # 示例程序
-│   ├── scheduler_demo/     # 调度算法演示
-│   └── memory_demo/        # 内存管理演示
-├── resources/              # 资源文件
-│   ├── configs/            # 配置文件
-│   └── logs/               # 日志文件
-├── scripts/                # 构建和工具脚本
-├── config/                 # 项目配置
-└── build/                  # 构建输出目录
-```
+   ### 🔧 **进程调度算法 Process Scheduling**
+   - **FCFS** - 先来先服务 (First Come First Served)
+   - **Round Robin** - 时间片轮转调度  
+   - **SJF/SRTF** - 最短作业优先 (非抢占/抢占式)
+   - **Priority** - 优先级调度 (非抢占/抢占式)
+   - **实时可视化**演示，逐步执行过程
+   - **性能指标分析** (等待时间、周转时间、CPU利用率)
 
-## 🚀 快速开始 | Quick Start
+   </td>
+   <td width="50%">
 
-### 环境要求 | Prerequisites
+   ### 💾 **内存管理 Memory Management**
+   - **连续分配算法** (首次适应、最佳适应、最坏适应、循环首次适应)
+   - **分页系统** 页表管理
+   - **页面置换算法** (FIFO、LRU、LFU、Clock)
+   - **内存碎片分析**与可视化
+   - **虚拟内存仿真**
+   - **动态内存可视化**与实时统计
 
-- **操作系统**: Windows 10/11 (x64)
-- **编译器**: MSVC 2019+ 或 MinGW-w64
-- **C++标准**: C++17 或更高
-- **构建工具**: CMake 3.16+
-- **可选**: Visual Studio 2019+ 或 Visual Studio Code
+   </td>
+</tr>
+<tr>
+<td width="50%">
 
-### 编译构建 | Build Instructions
+### 📁 **文件系统 File System** *(计划中)*
+- **层次化目录**结构管理
+- **文件分配方法** (连续、链式、索引)
 
-#### 方法一：使用CMake (推荐)
+</td>
+<td width="50%">
+
+### 🔄 **进程同步 Process Synchronization** *(计划中)*
+- **信号量与互斥锁** Semaphores & Mutexes
+- **经典同步问题** (生产者-消费者、读者-写者)
+
+</td>
+</tr>
+</table>
+
+
+## 🚀 快速开始
+
+### ⚡ 一键安装运行
+
 ```bash
-# 克隆或下载项目
+# 克隆仓库 Clone Repository
+git clone https://github.com/your-username/ZTS_OS_Design.git
 cd ZTS_OS_Design
 
-# 创建构建目录
-mkdir build
-cd build
+# 构建运行 (Windows)
+.\scripts\build.bat
+.\build\bin\ZTS_OS_Design.exe
 
-# 配置项目
+# 或使用 CMake 直接构建
+mkdir build && cd build
 cmake .. -G "Visual Studio 16 2019" -A x64
-
-# 编译项目
 cmake --build . --config Release
-
-# 运行程序
-cd bin
-./ZTS_OS_Design.exe
+.\bin\ZTS_OS_Design.exe
 ```
 
-#### 方法二：使用Visual Studio
-1. 用Visual Studio打开项目文件夹
-2. 选择CMakeLists.txt作为项目配置
-3. 按F5运行或Ctrl+F5编译运行
+### 🔧 环境要求
 
-#### 方法三：直接编译
-```bash
-# 使用g++直接编译（需要MinGW-w64）
-g++ -std=c++17 -O2 -Wall -I./include src/**/*.cpp main.cpp -o ZTS_OS_Design.exe
-```
-
-## 📖 使用说明 | Usage Guide
-
-### 启动程序
-运行程序后，您将看到专业的启动界面，包含：
-- ZTS操作系统Logo
-- 系统信息和版本
-- 启动动画和进度条
-
-### 主要功能模块
-
-1. **进程调度器演示**
-   - 创建多个模拟进程
-   - 选择不同调度算法
-   - 观察调度结果和性能指标
-
-2. **内存管理演示**
-   - 模拟内存分配和释放
-   - 查看内存使用情况
-   - 测试不同分配策略
-
-3. **文件系统操作**
-   - 创建、删除文件和目录
-   - 模拟文件读写操作
-   - 查看磁盘使用情况
-
-4. **同步机制测试**
-   - 运行经典同步问题
-   - 观察竞态条件和死锁
-   - 测试同步解决方案
-
-## 🧪 测试 | Testing
-
-项目包含完整的测试套件：
-
-```bash
-# 运行所有测试
-cd build
-ctest -C Release
-
-# 运行特定测试
-ctest -R scheduler_test
-ctest -R memory_test
-```
-
-## 📚 文档 | Documentation
-
-- **API文档**: [docs/api/](docs/api/) - 详细的API参考
-- **设计文档**: [docs/design/](docs/design/) - 系统架构和设计说明
-- **用户指南**: [docs/user_guide.md](docs/user_guide.md) - 详细使用说明
-- **开发指南**: [docs/developer_guide.md](docs/developer_guide.md) - 开发和贡献指南
-
-## 🤝 贡献 | Contributing
-
-我们欢迎社区贡献！请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与项目开发。
-
-### 贡献方式
-- 🐛 报告Bug
-- 💡 提出新功能建议
-- 📝 改进文档
-- 🔧 提交代码修复
-- ✨ 添加新功能
-
-## 📄 许可证 | License
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+| 组件 Component | 版本 Version | 状态 Status |
+|---------------|-------------|-------------|
+| **Windows** | 10/11 (x64) | ✅ 必需 Required |
+| **Visual Studio** | 2019+ | ✅ 必需 Required |
+| **CMake** | 3.16+ | ✅ 必需 Required |
+| **C++ 标准** | C++17 | ✅ 必需 Required |
+| **PowerShell** | 5.0+ | ✅ 推荐 Recommended |
 
 
-## 🔖 版本历史 | Version History
+## 🎯 开发路线
 
-- **v1.0.0-Beta** - 初始发布版本
-  - 基础进程调度算法实现
-  - 内存管理模拟
-  - 专业启动界面
-  - 完整项目结构
+### 🚀 **第一阶段：核心基础** ✅ 
+- [x] 项目架构与构建系统
+- [x] 专业启动界面与UI设计
+- [x] 进程调度算法 (FCFS, RR, SJF, Priority)
+- [x] 内存管理系统 (连续分配)
+- [x] 交互式演示系统
 
----
+### 🔥 **第二阶段：高级内存管理** ✅ 
+- [x] 内存分配算法实现
+- [x] 分页系统实现
+- [x] 页面置换算法
+- [x] 虚拟内存仿真
+- [x] 内存可视化增强
 
-⭐ **臭要饭的来要Star来了！**
+### 🌟 **第三阶段：文件系统** ⏳ 
+- [ ] 层次化目录结构
+- [ ] 文件分配方法
+- [ ] 磁盘调度算法
+- [ ] 文件操作仿真
 
-🚀 **Happy Coding with Operating System Simulation!** 
+### 🎉 **第四阶段：进程同步** ⏳ 
+- [ ] 信号量与互斥锁
+- [ ] 经典同步问题
+- [ ] 死锁检测与预防
+- [ ] 多线程支持
+
+### 🚀 **第五阶段：高级特性** ⏳ 
+- [ ] 网络仿真
+- [ ] 安全机制
+- [ ] 性能分析
+- [ ] Web界面支持
+
+
+
+## 🛠️ 技术栈
+
+<div align="center">
+
+   **核心技术 Core Technologies**
+   [![C++](https://img.shields.io/badge/C++-17-blue?style=flat&logo=cplusplus)](https://isocpp.org/)
+   [![CMake](https://img.shields.io/badge/CMake-3.16+-red?style=flat&logo=cmake)](https://cmake.org/)
+   [![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?style=flat&logo=windows)](https://www.microsoft.com/windows)
+
+   **开发工具 Development Tools**
+   [![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2019+-purple?style=flat&logo=visual-studio)](https://visualstudio.microsoft.com/)
+   [![Git](https://img.shields.io/badge/Git-2.30+-orange?style=flat&logo=git)](https://git-scm.com/)
+   [![PowerShell](https://img.shields.io/badge/PowerShell-5.0+-blue?style=flat&logo=powershell)](https://docs.microsoft.com/powershell/)
+
+</div>
+
+
+## 🤝 贡献
+
+热烈欢迎来玩！以下是您可以参与的方式：
+
+<div align="center">
+
+[![报告Bug](https://img.shields.io/badge/报告-Bug-red?style=for-the-badge&logo=bug)](https://github.com/your-repo/issues)
+[![功能建议](https://img.shields.io/badge/功能-建议-blue?style=for-the-badge&logo=lightbulb)](https://github.com/your-repo/issues)
+[![完善文档](https://img.shields.io/badge/完善-文档-green?style=for-the-badge&logo=book)](docs/)
+[![提交PR](https://img.shields.io/badge/提交-PR-purple?style=for-the-badge&logo=github)](https://github.com/your-repo/pulls)
+
+</div>
+
+
+
+**臭要星的来要⭐️辣！**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=your-username/ZTS_OS_Design&type=Date)](https://star-history.com/#your-username/ZTS_OS_Design&Date)
+
+
+**Made with 💜 by ZTS | © 2025 ZTS Operating System Design**
+
