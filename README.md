@@ -173,7 +173,7 @@ cmake --build . --config Release
 
 **臭要星的来要⭐️辣！**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/ZTS_OS_Design&type=Date)](https://star-history.com/#your-username/ZTS_OS_Design&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=neptune-T/ZTS_OS_Design&type=Date)](https://star-history.com/neptune-T/ZTS_OS_Design&Date)
 
 
 **Made with 💜 by ZTS | © 2025 ZTS Operating System Design**

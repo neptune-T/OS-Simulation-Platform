@@ -192,6 +192,7 @@ void MemoryDemo::showAllocationStrategyMenu() {
     std::cout << "2. ✨ 最佳适应 (Best Fit)" << std::endl;
     std::cout << "3. 💥 最坏适应 (Worst Fit)" << std::endl;
     std::cout << "4. 🔄 循环首次适应 (Next Fit)" << std::endl;
+    
     ConsoleColor::resetColor();
 }
 
